@@ -1,17 +1,16 @@
-//
-//  ManageMyPain2App.swift
-//  ManageMyPain2
-//
-//  Created by Pourya Mazinani on 12/11/25.
-//
-
 import SwiftUI
 
 @main
 struct ManageMyPain2App: App {
+    @StateObject private var painStore = PainStore()
+    @StateObject private var goalStore = GoalStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabView()
+                .environmentObject(painStore)
+                .environmentObject(goalStore)
         }
     }
 }
+
