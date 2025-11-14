@@ -6,20 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		78A037052EC72CEB00BA9E27 /* ManageMyPain2WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 78A036F12EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78A037032EC72CEB00BA9E27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A036BC2EC4969F00BA9E27 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78A036F02EC72CEA00BA9E27;
-			remoteInfo = ManageMyPain2WidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		78A0370A2EC72CEB00BA9E27 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,7 +13,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				78A037052EC72CEB00BA9E27 /* ManageMyPain2WidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +21,6 @@
 
 /* Begin PBXFileReference section */
 		78A036C42EC4969F00BA9E27 /* ManageMyPain2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageMyPain2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A036F12EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ManageMyPain2WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -49,13 +33,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		78A036C12EC4969F00BA9E27 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A036EE2EC72CEA00BA9E27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				78A036C42EC4969F00BA9E27 /* ManageMyPain2.app */,
-				78A036F12EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				78A037042EC72CEB00BA9E27 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				78A036C62EC4969F00BA9E27 /* ManageMyPain2 */,
@@ -108,25 +83,6 @@
 			productName = ManageMyPain2;
 			productReference = 78A036C42EC4969F00BA9E27 /* ManageMyPain2.app */;
 			productType = "com.apple.product-type.application";
-		};
-		78A036F02EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78A037072EC72CEB00BA9E27 /* Build configuration list for PBXNativeTarget "ManageMyPain2WidgetExtension" */;
-			buildPhases = (
-				78A036ED2EC72CEA00BA9E27 /* Sources */,
-				78A036EE2EC72CEA00BA9E27 /* Frameworks */,
-				78A036EF2EC72CEA00BA9E27 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ManageMyPain2WidgetExtension;
-			packageProductDependencies = (
-			);
-			productName = ManageMyPain2WidgetExtension;
-			productReference = 78A036F12EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -139,9 +95,6 @@
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					78A036C32EC4969F00BA9E27 = {
-						CreatedOnToolsVersion = 26.0.1;
-					};
-					78A036F02EC72CEA00BA9E27 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
@@ -161,20 +114,12 @@
 			projectRoot = "";
 			targets = (
 				78A036C32EC4969F00BA9E27 /* ManageMyPain2 */,
-				78A036F02EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		78A036C22EC4969F00BA9E27 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A036EF2EC72CEA00BA9E27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,22 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A036ED2EC72CEA00BA9E27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78A037042EC72CEB00BA9E27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78A036F02EC72CEA00BA9E27 /* ManageMyPain2WidgetExtension */;
-			targetProxy = 78A037032EC72CEB00BA9E27 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78A036CD2EC496A100BA9E27 /* Debug */ = {
@@ -394,66 +324,6 @@
 			};
 			name = Release;
 		};
-		78A037082EC72CEB00BA9E27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A23Y9LM36S;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ManageMyPain2Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ManageMyPain2Widget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pouryamazinani.ManageMyPain2.ManageMyPain2Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		78A037092EC72CEB00BA9E27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A23Y9LM36S;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ManageMyPain2Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ManageMyPain2Widget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pouryamazinani.ManageMyPain2.ManageMyPain2Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -471,15 +341,6 @@
 			buildConfigurations = (
 				78A036D02EC496A100BA9E27 /* Debug */,
 				78A036D12EC496A100BA9E27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78A037072EC72CEB00BA9E27 /* Build configuration list for PBXNativeTarget "ManageMyPain2WidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78A037082EC72CEB00BA9E27 /* Debug */,
-				78A037092EC72CEB00BA9E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
