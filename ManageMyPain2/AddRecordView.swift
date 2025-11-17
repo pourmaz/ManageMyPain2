@@ -57,4 +57,5 @@ struct AddRecordView: View {
         dismiss()
     }
 
+    
     }
